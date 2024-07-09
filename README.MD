@@ -3,11 +3,11 @@
 This project aims to perform sentiment analysis on the IMDB movie reviews dataset. It involves preprocessing text data, vectorizing the text using TF-IDF, training a machine learning model, and evaluating its performance.
 
 Input any movie reviews and it will tell you whether it's a positive or negative review. 
-![first sight](images/Step_1.png)
+![first sight](images/step1.png)
 
 If you disagree with the system-generated response, please click "Disgree" to let us know to help us improve its accuracy. 
-![second sight](images/Step_2.png)
-![third sight](images/Step_3.png)
+![second sight](images/step2.png)
+![third sight](images/step3.png)
 
 ## Getting Started 
 
