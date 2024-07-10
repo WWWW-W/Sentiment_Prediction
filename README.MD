@@ -44,7 +44,7 @@ The model used is a Sequential Keras model with the following layers:
 - Dropout layers to prevent overfitting.
 - Output layer with sigmoid activation for binary classification.
 
-### Evaluation 
+### Training 
 The model was trained on the TF-IDF vectorized data. The training process included:
 
 - Splitting the data into training and validation sets.
