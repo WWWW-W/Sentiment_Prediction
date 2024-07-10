@@ -16,12 +16,12 @@ This project aims to perform sentiment prediction on the IMDB movie reviews data
 
 ## Features
 
-- Predict sentiment of text reviews (positive/negative).
-    - Enter a text review in the input field.
-    - Click on "Submit Review" button to get the sentiment prediction.
-    - Help in understanding user feedback and gauge overall user satisfaction.
+1. **Predict sentiment of text reviews (positive/negative).**
+- Enter a text review in the input field.
+- Click on "Submit Review" button to get the sentiment prediction.
+- Help in understanding user feedback and gauge overall user satisfaction.
 
-- Report incorrect predictions to improve the accuracy of the model.
+2. **Report incorrect predictions to improve the accuracy of the model.**
     - If the prediction is incorrect, click on the "Disagree" button.
     - The review will be saved into the excel file for future model retraining.
     - Allow for manual correction and data labeling.
@@ -90,7 +90,7 @@ The dataset used in this project is [IMDB Movie Reviews dataset](https://www.kag
 - Tokenize and pad the text data.
 - Exploratory data analysis 
 
-**Model Training with TensorFlow - project.ipynb:**
+**Model Training with TensorFlow - `project.ipynb`:**
 - Data preparation  
     -Automate data preprocessing, including data cleaning, normalization, and feature engineering.
     - Integrate data augmentation techniques to enhance the model's ability to generalize.
@@ -115,6 +115,6 @@ The dataset used in this project is [IMDB Movie Reviews dataset](https://www.kag
 
 - Save the trained model. Convert the model the standard .h5 format for deploayment on web application. 
 
-**Model Monitoring with TensorBoard - Tensorboard.ipynb:** 
+**Model Monitoring with TensorBoard - `Tensorboard.ipynb`:** 
 - Evaluate the trained model using appropriate metrics and validation techniques.
 
