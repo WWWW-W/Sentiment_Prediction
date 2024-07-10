@@ -86,9 +86,9 @@ The dataset used in this project is [IMDB Movie Reviews dataset](https://www.kag
 ## Notebook Sections
 
  **Data Preprocessing - preprocess.ipynb:**
-    - Load and clean the dataset.
-    - Tokenize and pad the text data.
-    - Exploratory data analysis 
+- Load and clean the dataset.
+- Tokenize and pad the text data.
+- Exploratory data analysis 
 
 **Model Training with TensorFlow - project.ipynb:**
     - Data preparation  
