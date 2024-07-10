@@ -3,11 +3,11 @@
 This project aims to perform sentiment analysis on the IMDB movie reviews dataset. It involves preprocessing text data, vectorizing the text using TF-IDF, training a machine learning model, and evaluating its performance.
 
 Input any movie reviews and it will tell you whether it's a positive or negative review. 
-![first sight](images/step1.png)
+![first sight](images/step11.png)
 
 If you disagree with the system-generated response, please click "Disgree" to let us know to help us improve its accuracy. 
-![second sight](images/step2.png)
-![third sight](images/step3.png)
+![second sight](images/step22.png)
+![third sight](images/step33.png)
 
 ## Getting Started 
 
@@ -25,7 +25,7 @@ pip install tensorflow scikit-learn nltk pandas numpy keras-tuner
 - Keras Tuner
 
 ### Model deployment 
-The model uses Flask framework to be deployed. 
+The model uses Flask framework to be deployed..
 
 ```
 flask run
