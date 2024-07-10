@@ -16,18 +16,18 @@ This project aims to perform sentiment prediction on the IMDB movie reviews data
 
 ## Features
 
-1. **Predict sentiment of text reviews (positive/negative).**
+**1. Predict sentiment of text reviews (positive/negative).**
 - Enter a text review in the input field.
 - Click on "Submit Review" button to get the sentiment prediction.
 - Help in understanding user feedback and gauge overall user satisfaction.
 
-2. **Report incorrect predictions to improve the accuracy of the model.**
-    - If the prediction is incorrect, click on the "Disagree" button.
-    - The review will be saved into the excel file for future model retraining.
-    - Allow for manual correction and data labeling.
+**2. Report incorrect predictions to improve the accuracy of the model.**
+- If the prediction is incorrect, click on the "Disagree" button.
+- The review will be saved into the excel file for future model retraining.
+- Allow for manual correction and data labeling.
 
-- Monitor and retrain the model with new feedback.
-    - Improve the robustness and reliability of predictions. 
+**3. Monitor and retrain the model with new feedback.**
+- Improve the robustness and reliability of predictions. 
 
 ## Dataset
 
