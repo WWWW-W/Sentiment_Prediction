@@ -85,35 +85,36 @@ The dataset used in this project is [IMDB Movie Reviews dataset](https://www.kag
 
 ## Notebook Sections
 
- **Data Preprocessing - preprocess.ipynb:**
+ **Data Preprocessing - `preprocess.ipynb`:**
 - Load and clean the dataset.
 - Tokenize and pad the text data.
 - Exploratory data analysis 
 
 **Model Training with TensorFlow - project.ipynb:**
-    - Data preparation  
-        - Automate data preprocessing, including data cleaning, normalization, and feature engineering.
-        - Integrate data augmentation techniques to enhance the model's ability to generalize.
-        - Splitting the data into training and validation sets.
+- Data preparation  
+    -Automate data preprocessing, including data cleaning, normalization, and feature engineering.
+    - Integrate data augmentation techniques to enhance the model's ability to generalize.
+    - Splitting the data into training and validation sets.
 
-    - Model 
-        - Experiment with different model architectures such as feedforward neural networks, CNNs, and LSTMs.
-        - Streamline the model training process using TensorFlow's high-level APIs like Keras.
+- Model 
+    - Experiment with different model architectures such as feedforward neural networks, CNNs, and LSTMs.
+    - Streamline the model training process using TensorFlow's high-level APIs like Keras.
 
-    - Hyperparameter Tuning 
-        - Explore various hyperparameter configurations and optimization techniques.
-        - Use Keras Tuner to find the best hyperparameters.
-        - Train the model with the best hyperparameters.
+- Hyperparameter Tuning 
+    - Explore various hyperparameter configurations and optimization techniques.
+    - Use Keras Tuner to find the best hyperparameters.
+    - Train the model with the best hyperparameters.
 
-    - Model Evaluation  
-        - Track and document experiments using TensorBoard.
-        - The model was evaluated on the validation set using the following metrics:
-            - Loss
-            - Accuracy
-            - Classification report (Precision, Recall, F1-Score)
-            - Confusion matrix
-    - Save the trained model. Convert the model the standard .h5 format for deploayment on web application. 
+- Model Evaluation  
+    - Track and document experiments using TensorBoard.
+    - The model was evaluated on the validation set using the following metrics:
+        - Loss
+        - Accuracy
+        - Classification report (Precision, Recall, F1-Score)
+        - Confusion matrix
+
+- Save the trained model. Convert the model the standard .h5 format for deploayment on web application. 
 
 **Model Monitoring with TensorBoard - Tensorboard.ipynb:** 
-    - Evaluate the trained model using appropriate metrics and validation techniques.
+- Evaluate the trained model using appropriate metrics and validation techniques.
 
