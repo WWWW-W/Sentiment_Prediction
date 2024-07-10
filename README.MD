@@ -25,7 +25,7 @@ pip install tensorflow scikit-learn nltk pandas numpy keras-tuner
 - Keras Tuner
 
 ### Model deployment 
-The model uses Flask framework to be deployed..
+The model uses Flask framework to be deployed.
 
 ```
 flask run
