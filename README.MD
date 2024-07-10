@@ -33,7 +33,7 @@ flask run
 
 ## Dataset
 
-The dataset used in this project is [the "IMDB Movie Reviews"] dataset (https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews), which contains movie reviews along with their corresponding sentiment labels (positive or negative). The dataset has been augmented and cleaned for better performance.
+The dataset used in this project is [the IMDB Movie Reviews dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews), which contains movie reviews along with their corresponding sentiment labels (positive or negative). The dataset has been augmented and cleaned for better performance.
 
 ## Model 
 
